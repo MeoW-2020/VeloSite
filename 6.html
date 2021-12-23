@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleAdaptive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="ico-4.ico" type="image/x-icon">
+    <title>ВелоСайт</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="login">
+            <div class="login-window">
+                <a href="" class="close">+</a>
+                <p class="login-header">Вход</p>
+                <form class="login-form">
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email">
+                    <label for="password">Пароль:</label>
+                    <input type="password" name="password">
+                    <input type="button" value="Войти">
+                </form>
+            </div>
+        </div>
+        <div id="register">
+            <div class="login-window">
+                <a href="" class="close">+</a>
+                <p class="login-header">Регистрация</p>
+                <form class="login-form">
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email">
+                    <label for="password">Пароль:</label>
+                    <input type="password" name="password">
+                    <label for="password">Повторите пароль:</label>
+                    <input type="password" name="password">
+                    <input type="button" value="Зарегистрироваться">
+                </form>
+            </div>
+        </div>
+
+        <div id="left-column">
+            <a href="index.html"><img class="logo" src="img/logo.png" draggable="false" /></a>
+
+            <p class="menu-title">Меню</p>
+            <ul class="l-c-menu" draggable="false">
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="equipment.html">Снаряжение</a></li>
+                <ul class="l-c-sub">
+                    <div>Различные характеристики</div>
+                    <li><a href="1.html">Типы велосипедов</a></li>
+                    <li><a href="2.html">Тип привода</a></li>
+                    <li><a href="3.html">Вес байка</a></li>
+                    <li><a href="4.html">Материал рамы велосипеда</a></li>
+                    <li><a href="5.html">Размер рамы</a></li>
+                    <li class="selected-menu"><a href="6.html">Амортизация</a></li>
+                    <li><a href="7.html">Конструкция вилки</a></li>
+                    <li><a href="8.html">Ход вилки</a></li>
+                    <li><a href="9.html">Регулировки вилки</a></li>
+                    <li><a href="10.html">Конструкция рулевой колонки</a></li>
+                </ul>
+            </ul>
+        </div>
+
+        <div id="content">
+            <div id="header">
+                <p class="title">Всё о велосипедах</p>
+                <div class="header-btns-container">
+                    <a class="header-btn" href="#login">
+                        <p>Вход</p>
+                    </a>
+                    <a class="header-btn" href="#register">
+                        <p>Регистрация</p>
+                    </a>
+                </div>
+            </div>
+
+            <div id="main">
+                <div class="m-capture">Амортизация (ригид, хардтэил, двухподвес)</div>
+                <div class="m-body">
+                    <p>Под этим пунктом в характеристиках велосипеда имеется ввиду тип амортизации. Данных типов всего
+                        три.</p><br>
+
+                    <p><b>Ригид (Rigid)</b> – стандартная классическая схема, которая появилась еще на самых первых
+                        двухколесных транспортных средствах. Она подразумевает в себе конструкцию велосипеда с полным
+                        отсутствием амортизации, исключением может быть амортизированное седло с пружинами и
+                        амортизированный подседельный штырь. На велосипедах ригид устанавливается жесткая передняя
+                        вилка. По данной схеме выполняются все шоссейные велосипеды, дорожные, некоторые городские,
+                        круизеры и фэт-байки, а также BMX и т.д.</p>
+
+                    <img class="zoom" src="img/15.jpg" alt="">
+                    <div class="img-descript">Ригид</div>
+
+                    <p>К преимуществам такой схемы можно отнести жесткость конструкции, что позволяет осуществлять более
+                        эффективное педалирование за счет отсутствия раскачки велосипеда. Плюс к этому велосипеды rigid
+                        обычно легче конкурентов с амортизаторами. Ну а недостаток – дискомфорт во время езды по
+                        ухабистой дороге.</p><br>
+
+                    <p><b>Хардтеил (Hardtail)</b> – схема амортизации велосипеда, при которой последний, имеет
+                        амортизационную
+                        переднюю вилку и жесткий хвостовик. Такая схема очень популярна и может встречаться практически
+                        на каждом из типов велосипедов (кроме шоссеров).</p>
+
+                    <img class="zoom" src="img/16.jpg" alt="">
+                    <div class="img-descript">Хардтейл</div>
+
+                    <p>К преимуществам можно отнести более комфортную езду по ухабистым дорогам, чем у схемы ригид, за
+                        счет снижения вибрации, которая передается на руки велосипедиста от руля. Недостатки – менее
+                        эффективное педалирование (если вилка имеет блокировку хода, то этот недостаток можно не
+                        считать) и увеличение веса за счет более тяжелой амортизационной вилки.</p><br>
+
+                    <p><b>Двухподвес</b> – велосипед, который имеет два амортизатора, спереди и сзади. Передний реализован
+                        также как и на хардтейлах, а задний представляет собой, обычно, вид маятника (смотри картинку).</p>
+
+                    <img class="zoom" src="img/17.jpg" alt="">
+                    <div class="img-descript">Задний маятник</div>
+
+                    <p>Такая схема амортизации используется как на обычных горных велосипедах, так и на
+                        специализированных, которые используются для даунхилла./p>
+
+                    <img class="zoom" src="img/18.jpg" alt="">
+                    <div class="img-descript">Двухподвес</div>
+
+                    <p>Плюсы – комфортная езда и снижение нагрузки на позвоночник при прыжках. Минусы такие же, как и у
+                        хардтейлов, только еще более выражены.</p>
+                </div>
+            </div>
+
+            <div id="footer">
+                <p class="copy">&copy;MeoW 2021</p>
+            </div>
+        </div>
+
+        <div id="toTop">^</div>
+</body>
+
+</html>

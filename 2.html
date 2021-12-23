@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleAdaptive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="ico-4.ico" type="image/x-icon">
+    <title>ВелоСайт</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="login">
+            <div class="login-window">
+                <a href="" class="close">+</a>
+                <p class="login-header">Вход</p>
+                <form class="login-form">
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email">
+                    <label for="password">Пароль:</label>
+                    <input type="password" name="password">
+                    <input type="button" value="Войти">
+                </form>
+            </div>
+        </div>
+        <div id="register">
+            <div class="login-window">
+                <a href="" class="close">+</a>
+                <p class="login-header">Регистрация</p>
+                <form class="login-form">
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email">
+                    <label for="password">Пароль:</label>
+                    <input type="password" name="password">
+                    <label for="password">Повторите пароль:</label>
+                    <input type="password" name="password">
+                    <input type="button" value="Зарегистрироваться">
+                </form>
+            </div>
+        </div>
+
+        <div id="left-column">
+            <a href="index.html"><img class="logo" src="img/logo.png" draggable="false" /></a>
+
+            <p class="menu-title">Меню</p>
+            <ul class="l-c-menu" draggable="false">
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="equipment.html">Снаряжение</a></li>
+                <ul class="l-c-sub">
+                    <div>Различные характеристики</div>
+                    <li><a href="1.html">Типы велосипедов</a></li>
+                    <li class="selected-menu"><a href="2.html">Тип привода</a></li>
+                    <li><a href="3.html">Вес байка</a></li>
+                    <li><a href="4.html">Материал рамы велосипеда</a></li>
+                    <li><a href="5.html">Размер рамы</a></li>
+                    <li><a href="6.html">Амортизация</a></li>
+                    <li><a href="7.html">Конструкция вилки</a></li>
+                    <li><a href="8.html">Ход вилки</a></li>
+                    <li><a href="9.html">Регулировки вилки</a></li>
+                    <li><a href="10.html">Конструкция рулевой колонки</a></li>
+                </ul>
+            </ul>
+        </div>
+
+        <div id="content">
+            <div id="header">
+                <p class="title">Всё о велосипедах</p>
+                <div class="header-btns-container">
+                    <a class="header-btn" href="#login">
+                        <p>Вход</p>
+                    </a>
+                    <a class="header-btn" href="#register">
+                        <p>Регистрация</p>
+                    </a>
+                </div>
+            </div>
+
+            <div id="main">
+                <div class="m-capture">Тип привода (цепной, ременной, карданный)</div>
+                <div class="m-body">
+                    <p>Следующий параметр при выборе велосипеда – тип привода. Под этим понятием подразумевают деталь
+                        велосипеда при помощи которой вращение педалей передается на заднее колесо. На обычном
+                        классическом велосипеде это всем известная цепь. Так как это самый распространенный тип привода,
+                        подробно заострять внимание на цепи мы не будем. Но это не единственный способ.</p>
+
+                    <img class="zoom" src="img/10.jpg" alt="">
+                    <div class="img-descript">Цепная передача</div>
+
+                    <p>В последнее время стала набирать популярность ременная передача. Особенно часто она используется
+                        на городских складных велосипедах, так как сочетает в себе следующие качества. Она легкая, легко
+                        сгибается и не требует смазки, а соответственно вы не будете пачкать свои штаны при складывании
+                        велосипеда и подъеме его на N-этаж. Стоит заметить, что классическая система переключения
+                        передач (перекидка) на велосипеде с ременным приводом невозможна, поэтому единственный на
+                        сегодняшний день способ – это использование планетарной втулки. К минусам использования ремня
+                        вместо цепи я бы отнес низкую надежность при повышенных нагрузках.</p>
+
+                    <img class="zoom" src="img/11.jpg" alt="">
+                    <div class="img-descript">Ременная передача</div>
+
+                    <p>Ну и напоследок совсем брутальный карданный тип привода. Кратко о нем можно сказать так – он
+                        существует, но из-за совокупности серьезных недостатков не получил широкое распространение.
+                        Главный минус – он тяжелый и громоздкий.</p>
+
+                    <img class="zoom" src="img/12.jpg" alt="">
+                    <div class="img-descript">Карданная передача</div>
+
+                    <p>Подводя итог можно сказать, что самым оптимальным по надежности, ремонтопригодности, дешевизне
+                        все так же остается классическая цепная передача. Ну а что будет с ремнями дальше, посмотрим.
+                    </p>
+                </div>
+            </div>
+
+            <div id="footer">
+                <p class="copy">&copy;MeoW 2021</p>
+            </div>
+        </div>
+
+        <div id="toTop">^</div>
+</body>
+
+</html>

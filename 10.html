@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleAdaptive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="ico-4.ico" type="image/x-icon">
+    <title>ВелоСайт</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="login">
+            <div class="login-window">
+                <a href="" class="close">+</a>
+                <p class="login-header">Вход</p>
+                <form class="login-form">
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email">
+                    <label for="password">Пароль:</label>
+                    <input type="password" name="password">
+                    <input type="button" value="Войти">
+                </form>
+            </div>
+        </div>
+        <div id="register">
+            <div class="login-window">
+                <a href="" class="close">+</a>
+                <p class="login-header">Регистрация</p>
+                <form class="login-form">
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email">
+                    <label for="password">Пароль:</label>
+                    <input type="password" name="password">
+                    <label for="password">Повторите пароль:</label>
+                    <input type="password" name="password">
+                    <input type="button" value="Зарегистрироваться">
+                </form>
+            </div>
+        </div>
+
+        <div id="left-column">
+            <a href="index.html"><img class="logo" src="img/logo.png" draggable="false" /></a>
+
+            <p class="menu-title">Меню</p>
+            <ul class="l-c-menu" draggable="false">
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="equipment.html">Снаряжение</a></li>
+                <ul class="l-c-sub">
+                    <div>Различные характеристики</div>
+                    <li><a href="1.html">Типы велосипедов</a></li>
+                    <li><a href="2.html">Тип привода</a></li>
+                    <li><a href="3.html">Вес байка</a></li>
+                    <li><a href="4.html">Материал рамы велосипеда</a></li>
+                    <li><a href="5.html">Размер рамы</a></li>
+                    <li><a href="6.html">Амортизация</a></li>
+                    <li><a href="7.html">Конструкция вилки</a></li>
+                    <li><a href="8.html">Ход вилки</a></li>
+                    <li><a href="9.html">Регулировки вилки</a></li>
+                    <li class="selected-menu"><a href="10.html">Конструкция рулевой колонки</a></li>
+                </ul>
+            </ul>
+        </div>
+
+        <div id="content">
+            <div id="header">
+                <p class="title">Всё о велосипедах</p>
+                <div class="header-btns-container">
+                    <a class="header-btn" href="#login">
+                        <p>Вход</p>
+                    </a>
+                    <a class="header-btn" href="#register">
+                        <p>Регистрация</p>
+                    </a>
+                </div>
+            </div>
+
+            <div id="main">
+                <div class="m-capture">Конструкция рулевой колонки</div>
+                <div class="m-body">
+                    <p>Рулевая колонка – это совокупность деталей (чашек, подшипников, проставочных колец…) благодаря
+                        которым осуществляется вращение руля велосипеда в стакане (участок рамы велосипеда спереди,
+                        определенной конструкции, в которую вставляется рулевая труба). Бывает четыре разновидности
+                        конструкции рулевой колонки:</p>
+
+                    <div class="m-subtitle">Резьбовая</div>
+
+                    <p>Классическая схема, которая устанавливается на самые бюджетные велосипеды. Рулевая труба
+                        фиксируется в верхней части стакана при помощи контргайки. Из плюсов можно отметить дешевизну и
+                        легкость. Минусы – низкая надежность и сложная настройка.</p>
+
+                    <img class="zoom" src="img/25.jpg" alt="">
+                    <div class="img-descript">Резьбовая рулевая колонка</div>
+
+                    <div class="m-subtitle">Безрезьбовая (Aheadset)</div>
+
+                    <p>Стандартный современный формат рулевой колонки (неинтенрированный), который представляет собой
+                        две чашки, впрессованные снизу и сверху стакана, в них вставляются подшипники и закрываются
+                        кольцами качения. Сверху могут устанавливаться проставочные кольца, с помощью которых
+                        регулируется высота руля. После надевается и фиксируется вынос. Фиксация рулевой трубы
+                        происходит благодаря якорю, который находится внутри и вытягивается болтом. К плюсам можно
+                        отнести легкость в обслуживании (чистке, смазке) и простая установки. К недостаткам – не самые
+                        качественные подшипники (хотя это еще зависит от стоимости вилки).</p>
+
+                    <img class="zoom" src="img/26.jpg" alt="">
+                    <div class="img-descript">Безрезьбовая рулевая колонка</div>
+
+                    <div class="m-subtitle">Полуинтегрированная</div>
+
+                    <p>Считается самым оптимальным вариантом. Слегка дороже двух предыдущих конструкций. Отличием
+                        является то, что чашки полностью запрессованы внутрь стакана, что позволяет более просто
+                        настраивать высоту руля. Еще одной особенностью является использование промышленных подшипников,
+                        которые обладают большей надежностью и качеством работы, чем насыпные. Минусов два – более
+                        сложная конструкция, а как следствие сложность в обслуживании, и цена.</p>
+
+                    <img class="zoom" src="img/27.jpg" alt="">
+                    <div class="img-descript">Полуинтегрированная рулевая колонка</div>
+
+                    <div class="m-subtitle">Интегрированная</div>
+
+                    <p>Интегрированная конструкция рулевой колонки велосипеда имеет множество стандартов. Отличается от
+                        остальных отсутствием чашек. Промышленные подшипники впрессовываются внутрь стакана. Плюсы –
+                        легкость, надежность. К минусам можно отнести сложность в обслуживании и ремонте рулевой колонки
+                        данного типа, а также проблема выбора из-за множества различных стандартов.</p>
+
+                    <img class="zoom" src="img/28.jpg" alt="">
+                    <div class="img-descript">Интегрированная рулевая колонка</div>
+                </div>
+            </div>
+
+            <div id="footer">
+                <p class="copy">&copy;MeoW 2021</p>
+            </div>
+        </div>
+
+        <div id="toTop">^</div>
+</body>
+
+</html>

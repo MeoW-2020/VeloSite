@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleAdaptive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="ico-4.ico" type="image/x-icon">
+    <title>ВелоСайт</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="login">
+            <div class="login-window">
+                <a href="" class="close">+</a>
+                <p class="login-header">Вход</p>
+                <form class="login-form">
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email">
+                    <label for="password">Пароль:</label>
+                    <input type="password" name="password">
+                    <input type="button" value="Войти">
+                </form>
+            </div>
+        </div>
+        <div id="register">
+            <div class="login-window">
+                <a href="" class="close">+</a>
+                <p class="login-header">Регистрация</p>
+                <form class="login-form">
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email">
+                    <label for="password">Пароль:</label>
+                    <input type="password" name="password">
+                    <label for="password">Повторите пароль:</label>
+                    <input type="password" name="password">
+                    <input type="button" value="Зарегистрироваться">
+                </form>
+            </div>
+        </div>
+
+        <div id="left-column">
+            <a href="index.html"><img class="logo" src="img/logo.png" draggable="false" /></a>
+
+            <p class="menu-title">Меню</p>
+            <ul class="l-c-menu" draggable="false">
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="equipment.html">Снаряжение</a></li>
+                <ul class="l-c-sub">
+                    <div>Различные характеристики</div>
+                    <li><a href="1.html">Типы велосипедов</a></li>
+                    <li><a href="2.html">Тип привода</a></li>
+                    <li><a href="3.html">Вес байка</a></li>
+                    <li><a href="4.html">Материал рамы велосипеда</a></li>
+                    <li class="selected-menu"><a href="5.html">Размер рамы</a></li>
+                    <li><a href="6.html">Амортизация</a></li>
+                    <li><a href="7.html">Конструкция вилки</a></li>
+                    <li><a href="8.html">Ход вилки</a></li>
+                    <li><a href="9.html">Регулировки вилки</a></li>
+                    <li><a href="10.html">Конструкция рулевой колонки</a></li>
+                </ul>
+            </ul>
+        </div>
+
+        <div id="content">
+            <div id="header">
+                <p class="title">Всё о велосипедах</p>
+                <div class="header-btns-container">
+                    <a class="header-btn" href="#login">
+                        <p>Вход</p>
+                    </a>
+                    <a class="header-btn" href="#register">
+                        <p>Регистрация</p>
+                    </a>
+                </div>
+            </div>
+
+            <div id="main">
+                <div class="m-capture">Размер рамы</div>
+                <div class="m-body">
+                    <p>Подобрать правильно ростовку чрезвычайно важно при покупке/заказе велосипеда. Неверно подобранный
+                        размер рамы приводит к неудобной неправильной посадке, а как следствие к боли в спине и ногах, и
+                        быструю усталость. Не стоит покупать велосипед, если отсутствует ваш размер.</p>
+
+                    <p>Для каждого типа велосипеда имеется таблица ростовок с зависимостью размера рамы от роста
+                        велосипедиста. Ниже мы приведем некоторые из них, которые помогут вам правильно выбрать
+                        велосипед по росту.</p>
+
+                    <img class="zoom" class="img-600" src="img/14.jpg" alt="">
+                    <div class="img-descript">Таблица ростовок велосипедов</div>
+
+                    <p>Если вы сомневаетесь, какой размер рамы велосипеда подходит для вашего роста, лучше не рискуйте,
+                        а попросите помощи у консультанта в магазине или свяжитесь с дилером по телефону.
+                    </p>
+                </div>
+            </div>
+
+            <div id="footer">
+                <p class="copy">&copy;MeoW 2021</p>
+            </div>
+        </div>
+
+        <div id="toTop">^</div>
+</body>
+
+</html>

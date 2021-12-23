@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleAdaptive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="ico-4.ico" type="image/x-icon">
+    <title>ВелоСайт</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="login">
+            <div class="login-window">
+                <a href="" class="close">+</a>
+                <p class="login-header">Вход</p>
+                <form class="login-form">
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email">
+                    <label for="password">Пароль:</label>
+                    <input type="password" name="password">
+                    <input type="button" value="Войти">
+                </form>
+            </div>
+        </div>
+        <div id="register">
+            <div class="login-window">
+                <a href="" class="close">+</a>
+                <p class="login-header">Регистрация</p>
+                <form class="login-form">
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email">
+                    <label for="password">Пароль:</label>
+                    <input type="password" name="password">
+                    <label for="password">Повторите пароль:</label>
+                    <input type="password" name="password">
+                    <input type="button" value="Зарегистрироваться">
+                </form>
+            </div>
+        </div>
+
+        <div id="left-column">
+            <a href="index.html"><img class="logo" src="img/logo.png" draggable="false" /></a>
+
+            <p class="menu-title">Меню</p>
+            <ul class="l-c-menu" draggable="false">
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="equipment.html">Снаряжение</a></li>
+                <ul class="l-c-sub">
+                    <div>Различные характеристики</div>
+                    <li><a href="1.html">Типы велосипедов</a></li>
+                    <li><a href="2.html">Тип привода</a></li>
+                    <li><a href="3.html">Вес байка</a></li>
+                    <li><a href="4.html">Материал рамы велосипеда</a></li>
+                    <li><a href="5.html">Размер рамы</a></li>
+                    <li><a href="6.html">Амортизация</a></li>
+                    <li class="selected-menu"><a href="7.html">Конструкция вилки</a></li>
+                    <li><a href="8.html">Ход вилки</a></li>
+                    <li><a href="9.html">Регулировки вилки</a></li>
+                    <li><a href="10.html">Конструкция рулевой колонки</a></li>
+                </ul>
+            </ul>
+        </div>
+
+        <div id="content">
+            <div id="header">
+                <p class="title">Всё о велосипедах</p>
+                <div class="header-btns-container">
+                    <a class="header-btn" href="#login">
+                        <p>Вход</p>
+                    </a>
+                    <a class="header-btn" href="#register">
+                        <p>Регистрация</p>
+                    </a>
+                </div>
+            </div>
+
+            <div id="main">
+                <div class="m-capture">Конструкция вилки</div>
+                <div class="m-body">
+                    <p>Как писалось ранее на велосипеды могут устанавливаться два типа вилок – амортизационная и
+                        жесткая.
+                        Если велосипед типа ригид, то в данной графе будет указываться «жесткая», а вот с
+                        амортизационными немного сложнее. Там есть некоторое разнообразие используемых амортизаторов.
+                        Далее вкратце рассмотрим конструкцию и возможные варианты исполнения.</p>
+
+                    <img class="zoom" src="img/19.jpg" alt="">
+                    <div class="img-descript">Конструкция амортизационной вилки</div>
+
+                    <p>Амортизационная вилка велосипеда обычно состоит из рулевой трубы, короны, гориллы, ног вилки,
+                        штанов, манжет и амортизаторов. Это одна из самых распространенная схем передней вилки
+                        велосипеда. И как писалось ранее, главное отличие – используемые амортизаторы. Далее мы в
+                        порядке улучшения характеристик амортизации (а соответственно и увеличения цены) рассмотрим виды
+                        вилок.</p><br>
+
+                    <p><b>Пружинные</b> – самые дешевые и малоэффективные. Очень подвержены раскачке. Спорный вопрос,
+                        стоит ли их вообще устанавливать на велосипед.</p><br>
+
+                    <p><b>Пружинно-эластомерные</b> – амортизаторы начального уровня. Представляют собой металлические
+                        пружины, внутри которых находятся демпферы – эластомеры. Достаточно дешевый вид. Отличаются от
+                        остальных надежностью, неприхотливостью и простотой обслуживания, которое заключается в
+                        периодической чистке и замене смазки. К недостаткам можно отнести не самую хорошую амортизацию и
+                        больший вес за счет стальной пружины.</p>
+
+                    <img class="zoom" src="img/20.jpg" alt="">
+                    <div class="img-descript">Конструкция пружинно-эластомерной вилки</div>
+
+                    <p><b>Воздушные</b> – амортизаторы в которых используется воздушная пружина (вместо классической
+                        железной).
+                        Принцип действия: при нагрузке на вилку шток приводит в движение поршень, который двигаясь
+                        вверх, сдавливает воздух внутри герметичной емкости. Жесткость пружины можно и нужно
+                        периодически настраивать путем подкачки с помощью насоса. Этот вид хорошо отрабатывает все
+                        неровности дороги. Его главным недостатком является низкий ресурс (по сравнению с остальными) и
+                        плохая ремонтопригодность. Особенно сильно это сказывается в дальних поездках.</p>
+
+                    <img class="zoom" src="img/21.jpg" alt="">
+                    <div class="img-descript">Сосок для подкачки воздушной вилки</div>
+
+                    <p><b>Воздушно-масляные</b> – принцип действия и характеристики похожи на воздушные вилки, с одной
+                        разницей, что в качестве демпфера выступает масляный картридж. Показывают хорошую работу
+                        даже в экстремальных заездах. Имеют огромное количество регулировок, что позволяет
+                        подстраивать различные характеристики амортизации. Устанавливаются на дорогие модели
+                        велосипедов спортивного уровня.</p>
+
+                    <img class="zoom" src="img/22.jpg" alt="">
+                    <div class="img-descript">Масляно-воздушная вилка</div>
+
+                    <p><b>Масляно-пружинные</b> – одни из самых надежных, качественных и дорогих амортизационных вилок.
+                        Конструктивно состоят из металлической пружины и масляного демпфера. Достаточно надежны. Главным
+                        недостатком можно назвать цену.</p>
+
+                    <img class="zoom" class="img-600" src="img/23.jpg" alt="">
+                    <div class="img-descript">Масляно-пружинные вилки</div>
+                </div>
+            </div>
+
+            <div id="footer">
+                <p class="copy">&copy;MeoW 2021</p>
+            </div>
+        </div>
+
+        <div id="toTop">^</div>
+</body>
+
+</html>
